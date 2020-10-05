@@ -131,3 +131,4 @@ dmypy.json
 **/.idea/*
 **/.vscode/*
 *.zip
+**/20201005_1003_run/*
