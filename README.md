@@ -18,14 +18,12 @@ The goals of this project are the following:
 ## Files
 The project includes the following files:
 
+* [Report](report.md) summarizing the results
 * [Jupyter notebook](BehavioralCloning.ipynb) Describing the steps to load, preprocess and train the model
 * Model python [model.py](model.py) executable containing the script to create and train the model
 * Driver Server[ drive.py](utils/drive.py) for driving the car in autonomous mode
 * Trained model [model.h5](model.h5) containing a trained convolution neural network 
-* [Report](report.md) summarizing the results
 * [Video](video.mp4) for an autonomous drive example
-https://review.udacity.com/#!/rubrics/432/view
-
 
 
 References
