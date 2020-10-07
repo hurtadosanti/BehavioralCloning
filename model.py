@@ -12,6 +12,11 @@ from skimage import util, exposure
 from sklearn.utils import shuffle
 from tensorflow.keras import models, layers
 
+# Setup the parameters
+batch_size = 32
+learning_rate = 0.0003
+epochs = 10
+
 # Exctract
 with ZipFile('data.zip', 'r') as zipObj:
    zipObj.extractall()
@@ -113,12 +118,8 @@ def image_generator(logs, batch_s, training=True):
             end += batch_size
 
 
-# Setup the parameters
-batch_size = 32
-learning_rate = 0.0003
-epochs = 1
-train_log, test_log, validation_log = train_test_val(log_data,0.6,0.2,0.2)
 
+train_log, test_log, validation_log = train_test_val(log_data,0.6,0.2,0.2)
 steps_per_epoch = math.ceil(len(train_log)/batch_size)
 validation_steps_per_epoch = math.ceil(len(validation_log)/batch_size)
 test_steps_per_epoch = math.ceil(len(test_log)/batch_size)
