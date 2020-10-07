@@ -12,17 +12,6 @@ The goals of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-
-## Files Submitted
-My project includes the following files:
-
-* [Jupyter notebook](BehavioralCloning.ipynb) Describing the steps to load, preprocess and train the model
-* Model python [model.py](model.py) executable containing the script to create and train the model
-* Driver Server[ drive.py](utils/drive.py) for driving the car in autonomous mode
-* Trained model [model.h5](model.h5) containing a trained convolution neural network 
-* [Report](report.md) summarizing the results
-* [Video](video.mp4) for an autonomous drive example
-
 ## Solution Design Approach
 
 The process to train the model was:

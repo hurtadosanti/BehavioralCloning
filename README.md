@@ -3,6 +3,11 @@
 
 Overview
 ---
+
+This repository contains a solution to the Behavioral Cloning Project.
+
+In this project, we use deep neural networks and convolutional neural networks to clone driving behavior. We train, validate and test a model using Keras. The model outputs a steering angle to an autonomous vehicle.
+
 The goals of this project are the following:
 
 - Use the simulator to collect data of good driving behavior
@@ -10,7 +15,15 @@ The goals of this project are the following:
 - Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
 - Summarize the results with a written report
 
+## Files
+The project includes the following files:
 
+* [Jupyter notebook](BehavioralCloning.ipynb) Describing the steps to load, preprocess and train the model
+* Model python [model.py](model.py) executable containing the script to create and train the model
+* Driver Server[ drive.py](utils/drive.py) for driving the car in autonomous mode
+* Trained model [model.h5](model.h5) containing a trained convolution neural network 
+* [Report](report.md) summarizing the results
+* [Video](video.mp4) for an autonomous drive example
 https://review.udacity.com/#!/rubrics/432/view
 
 
