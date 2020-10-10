@@ -21,10 +21,19 @@ The project includes the following files:
 * [Report](report.md) summarizing the results
 * [Jupyter notebook](BehavioralCloning.ipynb) Describing the steps to load, preprocess and train the model
 * Model python [model.py](model.py) executable containing the script to create and train the model
-* Driver Server[ drive.py](utils/drive.py) for driving the car in autonomous mode
+* Driver Server [drive.py](utils/drive.py) for driving the car in autonomous mode
 * Trained model [model.h5](model.h5) containing a trained convolution neural network 
 * [Video](video.mp4) for an autonomous drive example
 
+Environment
+---
+- The conda environment can be found in the file [environment.yml](environment.yml)
+
+- The self-driving car simulator built with Unity can be found on this github repository [github repository](https://github.com/udacity/self-driving-car-sim) 
+
+License
+---
+MIT License Copyright (c) 2016-2018 Udacity, Inc.
 
 References
 ---

@@ -73,6 +73,10 @@ following design. We added dropout layers and obtain an architecture as describe
 
 ![Nvidia model](img/cnn-architecture-624x890.png)
 
+Total params: 348,219
+
+Trainable params: 348,219
+
 |Layer|Parameters |Activation|Output Shape|Weight parameters   | 
 |-----|----------|----------|------------|---|
 |Lambda|Normalization||(160, 320, 3)|0|
@@ -90,10 +94,6 @@ following design. We added dropout layers and obtain an architecture as describe
 |Dense|10|(10)||510|
 |Dense|1|(1)||11|        
 
-
-Total params: 348,219
-
-Trainable params: 348,219
 
 
 ## Conclusions
