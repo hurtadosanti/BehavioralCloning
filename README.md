@@ -29,7 +29,7 @@ Environment
 ---
 - The conda environment can be found in the file [environment.yml](environment.yml)
 
-- The self-driving car simulator built with Unity can be found on this github repository [github repository](https://github.com/udacity/self-driving-car-sim) 
+- The self-driving car simulator built with Unity can be found on this [github repository](https://github.com/udacity/self-driving-car-sim) 
 
 License
 ---
